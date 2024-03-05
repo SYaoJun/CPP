@@ -1,4 +1,5 @@
 # TBB
+- Pay attention to the camkefile, if you are not MacOS, please to install the tbb first.
 ## install
 ```c
 brew install tbb
