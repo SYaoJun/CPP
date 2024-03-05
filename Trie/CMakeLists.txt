@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(matrix)
+project(trie)
 set(CMAKE_CXX_STANDARD 17)
 
 # google test
@@ -11,7 +11,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
-add_executable(matrix_test matrix_test.cpp)
+add_executable(trie_test trie_test.cpp)
 # link static library
-target_link_libraries(matrix_test gtest_main)
+target_link_libraries(trie_test gtest_main)
 
