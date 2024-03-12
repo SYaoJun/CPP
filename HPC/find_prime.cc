@@ -12,11 +12,11 @@
 	int is_prime(int x)
 	{
 		int i;
-		if (x <= 1) {		/*1不是質數，且不考慮負整數與0,故輸入x<=1時輸出為假 */
+		if (x <= 1) {		
 			return 0;
 		}
 		for (i = 2; i * i <= x; ++i) {
-			if (x % i == 0) {	/*若整除時輸出為假，否則輸出為真 */
+			if (x % i == 0) {	
 				return 0;
 			}
 		}
