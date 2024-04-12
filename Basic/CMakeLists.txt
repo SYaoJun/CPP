@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 # add_executable(class_move class_move.cpp)
 
-add_executable(future future.cpp)
+add_executable(future2 future2.cpp)
