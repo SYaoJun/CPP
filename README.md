@@ -1,6 +1,3 @@
--------
-test local hahhahha
-
 # C++项目库
 ## 技能树
 1. 基本语法
@@ -25,14 +22,8 @@ test local hahhahha
 - 淘汰策略
 ## 高性能计算
 - TBB
-## 数据库内核
-- 多版本并发控制
-- 索引
-- 压缩
-- 缓冲池
-- 预写日志
-- 检查点
-- 故障恢复
+- OpenMP
+- MPI
 ## 参考资料
 - [在线编译](https://coliru.stacked-crooked.com/)
 - [cppreference](https://en.cppreference.com/w/cpp/utility/initializer_list)
